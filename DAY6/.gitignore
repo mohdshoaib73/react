@@ -1,20 +1,4 @@
-# .gitignore file for the DAY6 project
-# Ignore compiled javascript files
-*node_modules/
-*.js.map
+.parcel-cache/
+node_modules/
 dist/
-# Ignore log files
-*.log   
-# Ignore environment variable files
 .env
-# Ignore temporary files
-*.tmp
-*.swp
-# Ignore OS generated files
-.DS_Store
-Thumbs.db
-# Ignore IDE specific files
-.vscode/
-
-.idea/
-.parcels-cache/
