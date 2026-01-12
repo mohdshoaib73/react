@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#root{
+    
+    width: 450px;
+    background-color: rgb(70, 204, 204);
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+button{
+    cursor: pointer;
+    margin-right: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+.counter{
+   margin-left: 85px;
+    background-color: violet;
+    width: 250px;
+}
