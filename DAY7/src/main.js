@@ -9,8 +9,8 @@ function Main()
    return( <>
             <div className="counter">   
                 <h1>Counter Is:{count}</h1>
-                <button onClick={()=>setCount(count+1)}>Increment</button>
-                <button onClick={()=>setCount(count-1)}>Decrement</button>
+                <button onClick={()=>setCount(count+1)}>Increment </button>
+                <button onClick={()=>setCount(count-1)}>Decrement </button>
             </div>
           
             <Colorful/>

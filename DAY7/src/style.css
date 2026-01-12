@@ -12,7 +12,7 @@ body{
 #root{
     
     width: 450px;
-    background-color: rgb(70, 204, 204);
+    background-color: rgb(64, 212, 212);
     text-align: center;
     margin-top: 20px;
     padding-bottom: 20px;
@@ -21,7 +21,7 @@ body{
 
 button{
     cursor: pointer;
-    margin-right: 5px;
+    margin-right: 4px;
     width: 80px;
     height: 40px;
 }
