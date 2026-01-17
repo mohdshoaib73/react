@@ -5,6 +5,9 @@ import Home from "./src/Home";
 import Dashboard from "./src/Dashboard";
 import Contact from "./src/Contact";
 import Details from "./src/Details";
+import Zero from "./src/Zero";
+import Home from "./src/Home";
+import Hello from "./src/Hello";
 
 
 function App() {
@@ -12,15 +15,20 @@ function App() {
         <>
         <BrowserRouter>
         <nav>
-            <Link to="/">Home</Link>
-            <Link to="/dashboard">Dashboard</Link>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/"> Home</Link>
+            <Link to="/dashboard"> Dashboard</Link>
+            <Link to="/Contact"> Contact</Link>
+            <Link to="/details"> Details</Link>
         </nav>
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard/>} />
             <Route path="/Contact" element={<Contact/>} />
-            <Route path="/details" element={<Details/>} />
+            <Route path="/details" element={<Details/>}>
+             <Route index element={<Zero/>} />
+             <Route path="Home" element={<Home/>} />
+             <Route path="Hello" element={<Hello/>} />
+            </Route>
         </Routes>
         </BrowserRouter>
         </>
