@@ -1,11 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
+import store from "./Stores";
+import Counting from "./Counting";
 
 function App() {
     return(
-        <>
-            <h1>Redux</h1>
-        </>
+       
+            <Provider store={store}>
+                <Counting/>
+            </Provider>
+       
     )
 }
 
